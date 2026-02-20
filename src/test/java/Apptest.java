@@ -19,7 +19,7 @@ class AppTest {
 
     @Test
     void testGreet() {
-        assertEquals("Hello, Baldassare!", App.greet("Alice"));
+        assertEquals("Hello, Alice!", App.greet("Alice"));
         assertEquals("Hello, Bob!", App.greet("Bob"));
     }
 }
